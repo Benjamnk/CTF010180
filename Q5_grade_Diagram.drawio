@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T22:57:11.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_SVWrF6JHYByxkCUs-aN" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T13:25:18.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="xKqFWnx7MpHfzZ9aS6VA" version="13.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="944" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -10,52 +10,55 @@
             <mxPoint x="220" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-2" value="Read G" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-2" value="Read G" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-4" target="2OM3Sqdl-FBk8BSKAfIL-2">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-4" target="2OM3Sqdl-FBk8BSKAfIL-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="Start" id="2OM3Sqdl-FBk8BSKAfIL-4">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
             <mxGeometry x="160" y="50" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-6" value="&lt;ol start=&quot;1&quot; type=&quot;1&quot;&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;color: #535967 ; line-height: normal ; background: #f4f8fa&quot;&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;รับค่าเกรดของนักเรียน &lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;1 &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;คน&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;แล้วตรวจว่า ถ้า น้อยกว่า &lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;80% &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;ให้แสดงผลว่า “ตก”&lt;br/&gt;     ถ้ามากกว่า &lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;80% &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;ให้แสดงผลว่า”ผ่าน”&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-6" value="&lt;ol start=&quot;1&quot; type=&quot;1&quot;&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;color: #535967 ; line-height: normal ; background: #f4f8fa&quot;&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;รับค่าเกรดของนักเรียน &lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;1 &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;คน&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;แล้วตรวจว่า ถ้า น้อยกว่า &lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;80% &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;ให้แสดงผลว่า “ตก”&lt;br/&gt;     ถ้ามากกว่า &lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;80% &lt;/span&gt;&lt;span lang=&quot;TH&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;angsana new&amp;#34; , &amp;#34;serif&amp;#34;&quot;&gt;ให้แสดงผลว่า”ผ่าน”&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;sans-serif&amp;#34;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="-10" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-4" target="2OM3Sqdl-FBk8BSKAfIL-4">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-4" target="2OM3Sqdl-FBk8BSKAfIL-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-8" target="2OM3Sqdl-FBk8BSKAfIL-9">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-8" target="2OM3Sqdl-FBk8BSKAfIL-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-8" target="2OM3Sqdl-FBk8BSKAfIL-10">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-8" target="2OM3Sqdl-FBk8BSKAfIL-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-8" value="G &amp;gt; 80%" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-8" value="G &amp;gt; 80%" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="180" y="230" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-9" target="2OM3Sqdl-FBk8BSKAfIL-11">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-9" target="2OM3Sqdl-FBk8BSKAfIL-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-9" value="print&amp;nbsp; &quot;ผ่าน&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-9" value="print&amp;nbsp; &quot;ผ่าน&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-10" target="2OM3Sqdl-FBk8BSKAfIL-11">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OM3Sqdl-FBk8BSKAfIL-10" target="2OM3Sqdl-FBk8BSKAfIL-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-10" value="print &quot;ตก&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-10" value="print &quot;ตก&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-11" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-11" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="300" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OM3Sqdl-FBk8BSKAfIL-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIhIy9c6gUTwB6WOprVY-0" value="&lt;h1&gt;Quiz5.2 Pseudo Code&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Begin&lt;/div&gt;&lt;div&gt;&amp;nbsp;Read G&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;IF G &amp;lt; 80%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Display &quot;ตก&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Else IF Score &amp;gt; 80&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Display &quot;ผ่าน.&quot;&lt;/div&gt;&lt;div&gt;END&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="70" width="220" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
